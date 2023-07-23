@@ -54,16 +54,15 @@
 	text-align: center;
 	color: #ffffff;
 	border-radius: 0 0 50% 50%; /* curved hero */
-	font-family: 'Poppins', sans-serif;
   }
   
   .hero-content h1 {
-	font-size: 42px;
+	font-size: 36px;
 	margin-bottom: 20px;
   }
   
   .hero-content p {
-	font-size: 20px;
+	font-size: 18px;
 	margin-bottom: 40px;
   }
   
@@ -75,13 +74,12 @@
 	background-color: #ffffff;
 	color: #AF1B3F;
 	border-radius: 4px;
-	transition: background-color 0.3s ease, transform 0.2s ease;
-}
+	transition: background-color 0.3s ease;
+  }
   
   .cta-button:hover {
 	background-color: #f44336;
 	color: #ffffff;
-	transform: scale(1.05);
   }
   
   /* Features section styles */
@@ -112,11 +110,6 @@
 	margin-bottom: 20px;
   }
   
-.feature img:hover {
-	transform: scale(1.1); /* Slightly scale up the icon on hover */
-  }
-  
-
   .feature h3 {
 	font-size: 24px;
 	margin-bottom: 10px;
@@ -172,7 +165,6 @@
 	background-color: #ffffff;
 	padding: 80px 0;
 	text-align: center;
-	font-family: Merriweather;
   }
   
   #how-it-works h2 {
@@ -189,7 +181,6 @@
   .steps-list li {
 	flex-basis: 30%;
 	text-align: center;
-	list-style-type: none;
   }
   
   .steps-list img {
@@ -291,24 +282,3 @@
 	height: 100%;
   }
   
-
-  @media screen and (max-width: 768px) {
-	/* Update the font size for headings and paragraphs */
-	h1 {
-	  font-size: 28px;
-	}
-	h2 {
-	  font-size: 24px;
-	}
-	p {
-	  font-size: 14px;
-	}
-  
-	/* Adjust other element sizes if needed */
-  
-	/* Example: Reduce the CTA button size */
-	.cta-button {
-	  font-size: 16px;
-	  padding: 10px 20px;
-	}
-  }
